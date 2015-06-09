@@ -91,3 +91,14 @@ cacheSolve <- function(x, ...) {
         i
 }
 
+###############################################################################
+# Additional notes: 
+# Testing approach
+#        > mat_a<-makeCacheMatrix(matrix(c(4,2,7,6), nrow=2, ncol=2))
+#	> mat_a$get()
+#	> mat_a$getInverse()
+#	> cacheSolve(mat_a)
+#	> mat_a$getInverse()
+#	> cacheSolve(mat_a)	  
+###############################################################################
+
